@@ -15,6 +15,9 @@ const SerialTrack = {
 		return entry;
 	},
 	get: function(){
+		return this.entries.map();
+	},
+	delete: function(id){
 		
 	}
 };
